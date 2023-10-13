@@ -12,49 +12,47 @@
    <body class="main-container">
       <div>
          <header class="backblc">
-            <a href="index.html"><img class="logo" src="./images/logo.png" /></a>
+            <a href="index.html"><img class="logo" src="./images/logo.png" alt="image du logo Planty" /></a>
             <nav class="menu">
                <div class="nav-link">
                   <a href="rencontre.html">Nous rencontrer</a>
                   <a href="#">Admin</a>
-                  <a href="commander.html"><button class="cta-head">Commander</button></a>
+                  <form method="get" action="commander.html">
+                     <button class="cta-head" type="submit">Commander</button>
+                  </form>
                </div>
             </nav>
          </header>
          <main>
             <section class="rencontre">
                <div>
-                  <img class="decofleur" src="./images/fleur.png" />
+                  <img class="decofleur" src="./images/fleur.png" alt="image d'une fleur" />
                </div>
                <div class="renc intro">
                   <h1 class="Tro">NOUS RENCONTRER</h1>
-                  <p class="">
-                     Chez Planty nous sommes tous passionnés par le bien-être, et ça se retrouve
-                     dans nos boissons ! Notre start-up s’est construite au fur et à mesure de
-                     rencontres entre amoureux des plantes.
-                  </p>
+                  <p class="">Chez Planty nous sommes tous passionnés par le bien-être, et ça se retrouve dans nos boissons ! Notre start-up s’est construite au fur et à mesure de rencontres entre amoureux des plantes.</p>
                </div>
             </section>
             <section class="backblc equipe">
                <h3>L'équipe</h3>
                <div class="row-staff">
                   <div class="staff">
-                     <img src="./images/megane.png" />
+                     <img src="./images/megane.png" alt="photo du personnel" />
                      <h4>Mégane</h4>
                      <p>CEO</p>
                   </div>
                   <div class="staff">
-                     <img src="./images/brooke.png" />
+                     <img src="./images/brooke.png" alt="photo du personnel" />
                      <h4>Brooke</h4>
                      <p>Nutritioniste</p>
                   </div>
                   <div class="staff">
-                     <img src="./images/sylvie.png" />
+                     <img src="./images/sylvie.png" alt="photo du personnel" />
                      <h4>Sylvie</h4>
                      <p>Mixologue</p>
                   </div>
                </div>
-               <img class="deco" src="./images/feuilleG.png" />
+               <img class="deco" src="./images/feuilleG.png" alt="image d'une feuille" />
             </section>
 
             <section class="contacter">
@@ -74,13 +72,13 @@
                   <div class="formulaire-mess">
                      <label for="message">Message</label><br />
                      <input type="text" id="message" name="message" required />
-                     <img class="houx" src="./images/houx.png" />
+                     <img class="houx" src="./images/houx.png" alt="image d'une fleur" />
                   </div>
                </form>
                <br />
-               <a href="commander.html">
-               <button class="cta" type="submit">Envoyer</button>
-            </a>
+               <form method="get" action="commander.html">
+                  <button class="cta" type="submit">Envoyer</button>
+              </form>
                <br /><br /><br /><br />
                <div class="cans"></div>
             </section>
